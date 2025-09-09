@@ -28,17 +28,3 @@ input[type="submit"]:hover {
     background-color: green;
 
 }
-
-.action-page {
-    display: flexbox;
-    background-color: white;
-    border: 1px solid black;
-    text-align: center;
-    width: 500px;
-    margin: auto;
-    margin-top: 15%;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px 5px black;
-    background-color: grey;
-
-}
