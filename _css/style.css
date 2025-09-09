@@ -1,0 +1,44 @@
+form {
+    display: flexbox;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px black;
+    background-color: grey;
+    color: rgb(56, 56, 56);
+}
+
+input[type="text"],
+[type="email"],
+[type="date"] {
+    border: 2px solid black;
+    border-radius: 1px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    padding: 8px;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+
+}
+
+.action-page {
+    display: flexbox;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px black;
+    background-color: grey;
+
+}

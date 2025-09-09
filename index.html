@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="_action/action_page.html" method="get" onsubmit=" return verificarDados()">
+        <h1>Formulário</h1>
+
+        <label for="nome">Nome Completo:
+            <input type="text" name="nome" id="nome-user">
+        </label>
+        <br><br>
+        <label for="cpf">CPF:
+            <input type="text" name="cpf" id="cpf-user">
+        </label>
+        <br><br>
+        <label for="endereco">Endereço:
+            <input type="text" name="endereco" id="endereco-user">
+        </label>
+        <br><br>
+        <label for="cidade">Cidade:
+            <input type="text" name="cidade" id="cidade-user">
+        </label>
+        <br><br>
+        <label for="estado">Estado:
+            <input type="date" name="nascimento" id="data-user">
+        </label>
+        <br><br>
+        <label for="salario">Salário:
+            <input type="text" name="salario" id="salario-user">
+        </label>
+        <br><br>
+        <label for="email">E-mail:
+            <input type="email" name="email" id="email-user">
+        </label>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <br><br>
+        <script src="_js/script.js"></script>
+    </form>
+</body>
+</html>
