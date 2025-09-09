@@ -1,7 +1,7 @@
 function verificarDados() {
     const nome = document.getElementById('nome-user').value;
     const cpf = document.getElementById('cpf-user').value;
-    const regexNome = /^[A-Za-zÀ-ÖØ-öø-ÿ'\- ]+$/;
+    const regexNome = /^[a-zA-z\s]+$/;
     const regexCpf = /^\d{3}\.\d{3}\.\d{3}\-\d{2}$/;
 
 
